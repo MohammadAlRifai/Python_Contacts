@@ -10,7 +10,7 @@ try:
 	#This statement creates a web server and define the handler to manage the
 	#incoming request
 	server = HTTPServer(('', PORT_NUMBER), myHandler)
-	print ("Started httpserver on port " , PORT_NUMBER)
+	print ('Started httpserver on port ' , PORT_NUMBER)
 	
 	#Wait forever for incoming htto request
 	server.serve_forever()
